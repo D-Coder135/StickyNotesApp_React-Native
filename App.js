@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     textAlign: 'center',
     borderBottomWidth: 3,
-    
+    borderBottomColor: 'grey'
   }
 });
