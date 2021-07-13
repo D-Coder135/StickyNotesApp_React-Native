@@ -16,7 +16,7 @@ export default class App extends React.Component {
           <TextInput placeholder = "Note It Down Here." style = {styles.inputText}></TextInput>
 
           <TouchableOpacity>
-            <Text></Text>
+            <Text> + </Text>
           </TouchableOpacity>
         </View>
       </View>
