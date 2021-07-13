@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <View style = {styles.fotter}>
           <TextInput placeholder = "Note It Down Here." style = {styles.inputText}></TextInput>
 
-          <TouchableOpacity>
+          <TouchableOpacity style = {styles.addButton}>
             <Text style = {{fontSize: 25}}> + </Text>
           </TouchableOpacity>
         </View>
