@@ -50,5 +50,9 @@ const styles = StyleSheet.create({
   inputText: {
     padding: 20,
     
+  },
+
+  addButton: {
+    
   }
 });
