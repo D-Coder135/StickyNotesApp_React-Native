@@ -9,7 +9,7 @@ export default class App extends React.Component {
         <StatusBar style="auto" />
 
         <View style = {styles.header}>
-          <Text>Sticky Notes</Text>
+          <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
       </View>
     );
