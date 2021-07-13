@@ -12,7 +12,9 @@ export default class App extends React.Component {
           <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
 
-        <View style = {styles.fotter}></View>
+        <View style = {styles.fotter}>
+          <TextInput></TextInput>
+        </View>
       </View>
     );
   }
