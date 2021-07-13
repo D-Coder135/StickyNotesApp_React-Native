@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     borderTopColor: 'skyblue',
+    borderTopWidth: 2
   },
   
   inputText: {
