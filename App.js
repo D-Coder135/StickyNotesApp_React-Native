@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
 export default class App extends React.Component {
   render () {
@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
   },
   
   inputText: {
-    padding: 20
+    padding: 20,
+    
   }
 });
