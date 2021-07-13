@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
   },
 
   fotter: {
-    
+    position: 'absolute'
   }
 });
