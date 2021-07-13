@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     width: 40,
     backgroundColor: 'skyblue',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    borderRadius: 50
   }
 });
