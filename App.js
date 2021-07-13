@@ -42,6 +42,6 @@ const styles = StyleSheet.create({
   },
   
   inputText: {
-    
+    padding: 20
   }
 });
