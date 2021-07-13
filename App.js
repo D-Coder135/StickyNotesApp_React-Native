@@ -8,8 +8,8 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <StatusBar style="auto" />
 
-        <View>
-          
+        <View style = {styles.header}>
+
         </View>
       </View>
     );
