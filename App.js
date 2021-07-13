@@ -32,5 +32,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     borderBottomWidth: 3,
     borderBottomColor: 'grey'
+  },
+
+  fotter: {
+    
   }
 });
