@@ -9,7 +9,7 @@ export default class App extends React.Component {
         <StatusBar style="auto" />
 
         <View style = {styles.header}>
-
+          <Text></Text>
         </View>
       </View>
     );
