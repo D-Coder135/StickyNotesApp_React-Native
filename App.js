@@ -22,6 +22,6 @@ const styles = StyleSheet.create({
   },
 
   header: {
-    
+    backgroundColor: 'skyblue'
   }
 });
