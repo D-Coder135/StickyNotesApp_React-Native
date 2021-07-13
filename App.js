@@ -11,6 +11,8 @@ export default class App extends React.Component {
         <View style = {styles.header}>
           <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
+
+        <View></View>
       </View>
     );
   }
