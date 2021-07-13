@@ -58,6 +58,8 @@ const styles = StyleSheet.create({
     right: 20,
     height: 40,
     width: 40,
-    backgroundColor: 'skyblue'
+    backgroundColor: 'skyblue',
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
