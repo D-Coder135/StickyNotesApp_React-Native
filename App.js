@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: 'skyblue',
     height: 70,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    textAlign: 'center',
+    
   }
 });
