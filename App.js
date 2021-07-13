@@ -13,7 +13,7 @@ export default class App extends React.Component {
         </View>
 
         <View style = {styles.fotter}>
-          <TextInput></TextInput>
+          <TextInput placeholder = "Note It Down Here."></TextInput>
         </View>
       </View>
     );
