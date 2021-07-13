@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
   },
 
   addButton: {
-    
+    position: 'absolute'
   }
 });
