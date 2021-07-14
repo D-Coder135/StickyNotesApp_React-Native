@@ -23,7 +23,7 @@ export default class App extends React.Component {
 
   render () {
     var notes = this.state.notesArray.map((item) => {
-      return <Text>{item.note}</Text>;
+      return <View></View>;
     });
 
     return (
