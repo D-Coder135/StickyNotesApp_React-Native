@@ -22,7 +22,7 @@ const styles = StyleSheet.create ({
     node : {
         position: 'relative',
         padding: 20,
-        paddingRight: 200,
+        paddingRight: 220,
         borderBottomColor: 'skyblue',
         borderBottomWidth: 3
     },
