@@ -31,7 +31,7 @@ export default class App extends React.Component {
 
     this.state.notesArray.push({
       note: this.state.noteText,
-      date: date.getDate + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
+      date: date.getDate() + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
     });
     this.setState({notesArray: this.state.notesArray})
   }
