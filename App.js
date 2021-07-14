@@ -87,7 +87,7 @@ export default class App extends React.Component {
           <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
 
-        <ScrollView>{notes}</ScrollView>
+        <ScrollView style = {styles.scrollView}>{notes}</ScrollView>
 
         <View style = {styles.fotter}>
           <TextInput 
