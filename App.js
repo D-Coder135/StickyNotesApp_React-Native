@@ -13,7 +13,7 @@ export default class App extends React.Component {
   }
 
   keepNotes = () => {
-
+    this.state.notesArray.push(this.state.noteText);
   }
 
   render () {
