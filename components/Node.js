@@ -22,7 +22,7 @@ const styles = StyleSheet.create ({
     },
 
     noteText: {
-        padding: 20,
+        paddingLeft: 20,
         borderLeftColor: 'skyblue',
         borderLeftWidth: 10,
     }
