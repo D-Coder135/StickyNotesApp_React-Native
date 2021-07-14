@@ -9,7 +9,7 @@ export default class Node extends React.Component {
                 <Text style = {styles.noteText}>{this.props.task.date}</Text>
 
                 <TouchableOpacity>
-                    
+                    <Text></Text>
                 </TouchableOpacity>
             </View>
         );
