@@ -29,7 +29,7 @@ export default class App extends React.Component {
 
   markDone = (item) => {
 
-     const notes = db.ref('notes');
+     const notes = db.ref('notes').child(this.state.notesArray[item].id);
 
     this.state.notesArray.splice(item, 1);
     this.setState({notesArray: this.state.notesArray});
