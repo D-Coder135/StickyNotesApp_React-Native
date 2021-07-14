@@ -6,6 +6,7 @@ export default class Node extends React.Component {
         return (
             <View style = {styles.node}>
                 <Text></Text>
+                <Text></Text>
             </View>
         );
     }
