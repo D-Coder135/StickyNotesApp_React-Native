@@ -6,7 +6,7 @@ export default class Node extends React.Component {
         return (
             <View style = {styles.node} key = {this.props.task}>
                 <Text style = {styles.noteText}>{this.props.task.note}</Text>
-                <Text style = {styles.noteText}>{this.props.task.date}</Text>
+                <Text style = {{paddingLeft: 10, paddingTop: 10}}>{this.props.task.date}</Text>
 
                 <TouchableOpacity style = {styles.deleteButton} onPress = {this.props.markDone}>
                     <Text>
