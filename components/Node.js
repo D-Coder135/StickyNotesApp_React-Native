@@ -17,6 +17,7 @@ const styles = StyleSheet.create ({
         position: 'relative',
         padding: 20,
         paddingRight: 200,
+        borderBottomColor: 'grey',
         
     }
 });
