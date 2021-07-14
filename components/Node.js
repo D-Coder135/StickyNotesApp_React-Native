@@ -16,6 +16,7 @@ const styles = StyleSheet.create ({
     node : {
         position: 'relative',
         padding: 20,
+        paddingRight: 200,
         
     }
 });
