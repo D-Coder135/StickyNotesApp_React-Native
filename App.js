@@ -13,6 +13,11 @@ export default class App extends React.Component {
     }
   }
 
+  markDone = (item) => {
+    this.state.notesArray.splice(item, 1);
+    
+  }
+
   keepNotes = () => {
     var date = new Date();
     const monthsName = [
