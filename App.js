@@ -33,7 +33,9 @@ export default class App extends React.Component {
       note: this.state.noteText,
       date: date.getDate() + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
     });
-    this.setState({notesArray: this.state.notesArray})}
+    this.setState({notesArray: this.state.notesArray});
+    this.setState({noteText: ''});
+  }
   }
 
   render () {
