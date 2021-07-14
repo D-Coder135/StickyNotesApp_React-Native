@@ -40,7 +40,7 @@ export default class App extends React.Component {
   }
 
   render () {
-    var notes = this.state.notesArray.map((item) => {
+    var notes = this.state.notesArray.map((index, item) => {
       return (
         <Node task = {}/>
       );
