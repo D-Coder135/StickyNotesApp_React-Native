@@ -33,7 +33,7 @@ export default class App extends React.Component {
      notes.remove();
 
     this.state.notesArray.splice(item, 1);
-    this.setState({notesArray: this.state.notesArray});
+    // this.setState({notesArray: this.state.notesArray});
   }
 
   keepNotes = () => {
