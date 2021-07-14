@@ -39,6 +39,7 @@ const styles = StyleSheet.create ({
         top:10,
         padding: 10,
         backgroundColor: 'skyblue',
-        
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 });
