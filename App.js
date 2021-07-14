@@ -5,6 +5,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 export default class App extends React.Component {
 
   constructor() {
+    super();
     
   }
 
