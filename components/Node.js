@@ -5,8 +5,8 @@ export default class Node extends React.Component {
     render () {
         return (
             <View style = {styles.node} key = {this.props.task}>
-                <Text style = {styles.noteText}></Text>
-                <Text style = {styles.noteText}></Text>
+                <Text style = {styles.noteText}>{this.props.task.note}</Text>
+                <Text style = {styles.noteText}>{this.props.task.date}</Text>
             </View>
         );
     }
