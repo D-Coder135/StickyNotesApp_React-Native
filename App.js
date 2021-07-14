@@ -23,6 +23,7 @@ export default class App extends React.Component {
       for(var note in notes) {
         notesList.push({id, ...todos[id]});
       }
+      this.setState({notesArray: notesList});
     })
   }
 
