@@ -30,6 +30,7 @@ export default class App extends React.Component {
   markDone = (item) => {
 
      const notes = db.ref('notes').child(this.state.notesArray[item].id);
+     notes.remove();
 
     this.state.notesArray.splice(item, 1);
     this.setState({notesArray: this.state.notesArray});
