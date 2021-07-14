@@ -21,7 +21,7 @@ export default class App extends React.Component {
 
   keepNotes = () => {
 
-    const tasks = db.ref('notes');
+    const notes = db.ref('notes');
     var date = new Date();
     const monthsName = [
       'Jan',
@@ -43,6 +43,9 @@ export default class App extends React.Component {
       note: this.state.noteText,
       date: date.getDate() + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
     };
+
+    
+
     this.setState({notesArray: this.state.notesArray});
     this.setState({noteText: ''});
   }
