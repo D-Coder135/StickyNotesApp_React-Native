@@ -14,11 +14,24 @@ export default class App extends React.Component {
 
   keepNotes = () => {
     var date = new Date();
-    const monthsName = [];
+    const monthsName = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'Jun',
+      'Jul',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec'
+    ];
 
     this.state.notesArray.push({
       note: this.state.noteText,
-      date: date.getDate + '-' + date.getMonth() + '-' + date.getFullYear()
+      date: date.getDate + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
     });
     this.setState({notesArray: this.state.notesArray})
   }
