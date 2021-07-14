@@ -28,7 +28,7 @@ export default class App extends React.Component {
       'Nov',
       'Dec'
     ];
-
+    if (this.state.noteText)
     this.state.notesArray.push({
       note: this.state.noteText,
       date: date.getDate() + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
