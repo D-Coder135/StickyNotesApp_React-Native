@@ -20,8 +20,8 @@ export default class App extends React.Component {
       const todos = data.val();
       const notesList = [];
 
-      for(var note in todos) {
-        notesList.push({note, ...todos[note]});
+      for(var id in todos) {
+        notesList.push({id, ...todos[id]});
       }
       this.setState({notesArray: notesList});
     });
@@ -29,8 +29,8 @@ export default class App extends React.Component {
 
   markDone = (item) => {
 
-     const notes = db.ref('notes').child(this.state.notesArray[item].id);
-     notes.remove();
+     const note = db.ref('notes').child(this.state.notesArray[item].id);
+     note.remove();
 
     this.state.notesArray.splice(item, 1);
     // this.setState({notesArray: this.state.notesArray});
