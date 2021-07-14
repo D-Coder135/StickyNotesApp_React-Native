@@ -33,6 +33,9 @@ const styles = StyleSheet.create ({
         borderLeftWidth: 10,
     },
     deleteButton : {
-        position: 'absolute'
+        position: 'absolute',
+        right: 10,
+        bottom:10,
+        top:10,
     }
 });
