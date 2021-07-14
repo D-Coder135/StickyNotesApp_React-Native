@@ -39,7 +39,7 @@ export default class App extends React.Component {
     ];
     if (this.state.noteText)
    { 
-     {
+     const newNote = {
       note: this.state.noteText,
       date: date.getDate() + '-' + monthsName[date.getMonth()] + '-' + date.getFullYear()
     };
