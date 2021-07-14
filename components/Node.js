@@ -3,6 +3,6 @@ import {} from 'react-native';
 
 export default class Node extends React.Component {
     render () {
-
+        return ();
     }
 }
