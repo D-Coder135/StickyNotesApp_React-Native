@@ -20,6 +20,8 @@ export default class App extends React.Component {
   }
 
   keepNotes = () => {
+
+    const tasks = db.ref('notes');
     var date = new Date();
     const monthsName = [
       'Jan',
