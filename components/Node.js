@@ -38,5 +38,7 @@ const styles = StyleSheet.create ({
         bottom:10,
         top:10,
         padding: 10,
+        backgroundColor: 'skyblue',
+        
     }
 });
