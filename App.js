@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import Node from './components/Node';
 import db from './firebaseConfig';
 
@@ -87,7 +87,7 @@ export default class App extends React.Component {
           <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
 
-        <Text>{notes}</Text>
+        <ScrollView>{notes}</ScrollView>
 
         <View style = {styles.fotter}>
           <TextInput 
