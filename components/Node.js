@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 export default class Node extends React.Component {
     render () {
         return (
-            <View style = {styles.node}>
+            <View style = {styles.node} key = {this.props.task}>
                 <Text style = {styles.noteText}></Text>
                 <Text style = {styles.noteText}></Text>
             </View>
