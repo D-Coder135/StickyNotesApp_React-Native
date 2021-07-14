@@ -14,6 +14,10 @@ export default class App extends React.Component {
     }
   }
 
+  componentDidMount() {
+    
+  }
+
   markDone = (item) => {
     this.state.notesArray.splice(item, 1);
     this.setState({notesArray: this.state.notesArray});
