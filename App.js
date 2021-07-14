@@ -17,9 +17,10 @@ export default class App extends React.Component {
   }
 
   render () {
-    var notes = this.state.notesArray.map(item) => {
+    var notes = this.state.notesArray.map((item) => {
       return <Text>{item.note}</Text>
-    }
+    });
+
     return (
       <View style={styles.container}>
         <StatusBar style="auto" />
@@ -27,6 +28,8 @@ export default class App extends React.Component {
         <View style = {styles.header}>
           <Text style = {{fontSize: 20}}>Sticky Notes</Text>
         </View>
+
+        <Text></Text>
 
         <View style = {styles.fotter}>
           <TextInput 
