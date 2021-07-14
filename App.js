@@ -20,11 +20,11 @@ export default class App extends React.Component {
       const todos = data.val();
       const notesList = [];
 
-      for(var note in notes) {
-        notesList.push({id, ...todos[id]});
+      for(var note in todos) {
+        notesList.push({note, ...todos[note]});
       }
       this.setState({notesArray: notesList});
-    })
+    });
   }
 
   markDone = (item) => {
