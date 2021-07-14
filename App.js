@@ -15,7 +15,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    
+    const notes = db.ref('notes');
   }
 
   markDone = (item) => {
