@@ -33,6 +33,6 @@ const styles = StyleSheet.create ({
         borderLeftWidth: 10,
     },
     deleteButton : {
-        
+        position: 'absolute'
     }
 });
