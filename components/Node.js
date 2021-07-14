@@ -19,5 +19,9 @@ const styles = StyleSheet.create ({
         paddingRight: 200,
         borderBottomColor: 'skyblue',
         borderBottomWidth: 3
+    },
+
+    noteText: {
+        
     }
 });
