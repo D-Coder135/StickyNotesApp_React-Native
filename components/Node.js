@@ -31,5 +31,8 @@ const styles = StyleSheet.create ({
         paddingLeft: 20,
         borderLeftColor: 'skyblue',
         borderLeftWidth: 10,
+    },
+    deleteButton : {
+        
     }
 });
