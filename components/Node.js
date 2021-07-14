@@ -11,3 +11,7 @@ export default class Node extends React.Component {
         );
     }
 }
+
+const styles = StyleSheet.create ({
+    
+});
