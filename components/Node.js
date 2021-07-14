@@ -17,7 +17,7 @@ const styles = StyleSheet.create ({
         position: 'relative',
         padding: 20,
         paddingRight: 200,
-        borderBottomColor: 'grey',
-        borderBottomWidth: 2
+        borderBottomColor: 'skyblue',
+        borderBottomWidth: 3
     }
 });
