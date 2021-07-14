@@ -46,7 +46,7 @@ export default class App extends React.Component {
 
     notes.push(newNote);
 
-    this.setState({notesArray: this.state.notesArray});
+    // this.setState({notesArray: this.state.notesArray});
     this.setState({noteText: ''});
   }
   }
