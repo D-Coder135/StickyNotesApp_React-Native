@@ -21,7 +21,7 @@ export default class App extends React.Component {
       const notesList = [];
 
       for(var note in notes) {
-        
+        notesList.push({id, ...todos[id]});
       }
     })
   }
