@@ -41,10 +41,10 @@ export default class App extends React.Component {
 
   render () {
     var notes = this.state.notesArray.map((item) => {
-      return <View>
-        <Text>{item.note}</Text>
-        <Text>{item.date}</Text>
-      </View>;
+      // return <View>
+      //   <Text>{item.note}</Text>
+      //   <Text>{item.date}</Text>
+      // </View>;
     });
 
     return (
