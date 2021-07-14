@@ -7,6 +7,10 @@ export default class Node extends React.Component {
             <View style = {styles.node} key = {this.props.task}>
                 <Text style = {styles.noteText}>{this.props.task.note}</Text>
                 <Text style = {styles.noteText}>{this.props.task.date}</Text>
+
+                <TouchableOpacity>
+                    
+                </TouchableOpacity>
             </View>
         );
     }
