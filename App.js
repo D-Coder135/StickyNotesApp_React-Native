@@ -13,12 +13,13 @@ export default class App extends React.Component {
   }
 
   keepNotes = () => {
-    this.state.notesArray.push(this.state.noteText);
+    this.state.notesArray.push({note: this.state.noteText});
+    this.setState({notesArray: this.state.notesArray})
   }
 
   render () {
     var notes = this.state.notesArray.map((item) => {
-      return <Text>{item.note}</Text>
+      return <Text>{item.note}</Text>;
     });
 
     return (
