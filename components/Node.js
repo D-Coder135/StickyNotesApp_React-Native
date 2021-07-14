@@ -22,6 +22,7 @@ const styles = StyleSheet.create ({
     },
 
     noteText: {
+        padding: 20,
         
     }
 });
