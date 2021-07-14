@@ -19,6 +19,10 @@ export default class App extends React.Component {
     notes.on('value', (data) => {
       const todos = data.val();
       const notesList = [];
+
+      for(var note in notes) {
+        
+      }
     })
   }
 
