@@ -26,7 +26,14 @@ export default class App extends React.Component {
         </View>
 
         <View style = {styles.fotter}>
-          <TextInput placeholder = "Note It Down Here." style = {styles.inputText} onChangeText = {(text) => {this.setState({noteText:text})}}></TextInput>
+          <TextInput 
+          placeholder = "Note It Down Here." 
+          style = {styles.inputText} 
+          onChangeText = {(text) => {this.setState({noteText:text})}}
+          value = {this.state.noteText}
+          >
+
+          </TextInput>
 
           <TouchableOpacity style = {styles.addButton} onPress = {this.keepNotes}>
             <Text style = {{fontSize: 25}}> + </Text>
