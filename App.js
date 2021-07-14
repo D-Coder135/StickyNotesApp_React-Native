@@ -13,6 +13,7 @@ export default class App extends React.Component {
   }
 
   keepNotes = () => {
+    var date = new Date();
     this.state.notesArray.push({note: this.state.noteText});
     this.setState({notesArray: this.state.notesArray})
   }
