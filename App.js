@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import Node from './components/Node';
 import db from './firebaseConfig';
-
+import Constants from 'expo-constants';
 
 export default class App extends React.Component {
 
