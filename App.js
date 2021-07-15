@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView } from 
 import Node from './components/Node';
 import db from './firebaseConfig';
 
+
 export default class App extends React.Component {
 
   constructor() {
